@@ -25,6 +25,7 @@
   
   .navbar-search-icon {
     position: relative;
+    display: flex;
    img{
      width: 25px;
      height: 25px;
@@ -40,8 +41,10 @@
     min-height: 10px;
     background-color: tomato;
     border-radius: 5px;
-    top: -1px;
+    top: px;
+    right:115px;
     margin-left: 10px;
+  
   }
   /* for larger screens */
   @media  (max-width:1050px){
